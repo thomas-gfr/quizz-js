@@ -1,7 +1,7 @@
 $(document).ready(function(){ 
   var secondes = 0; 
   var minutes = 0; 
-  var on = false; 
+  var click = false; 
   $("#play").click(function(){ 
     Start(); 
   }); 
@@ -30,16 +30,15 @@ $(document).ready(function(){
   } 
   
   function Start(){ 
-    if(on===false){ 
+    if(click===false){ 
       timerID = setInterval(chrono, 1000); 
-      on = true; 
-      reset = false; 
+      click = true; 
     } 
   } 
   
   function Stop(){ 
-    if(on===true){ 
-      on = false; 
+    if(click===true){ 
+      click = false; 
       clearTimeout(timerID); 
     } 
   } 

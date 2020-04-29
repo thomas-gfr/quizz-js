@@ -6,7 +6,7 @@ $(document).ready(function(){
         headers: {
             Authorization: "Bearer keyhyv0KQcAU56pdI",
         },
-        dataType: "jsonp",
+        dataType: "json",
 
         });
         

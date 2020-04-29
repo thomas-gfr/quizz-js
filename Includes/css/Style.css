@@ -33,8 +33,14 @@ body {
 	display: none;
 	float: right;
 }
+.btn-next{
+	float: right;
+}
 .title{
     color: white;
     font-size: 80px;
     font-family: 'Bangers', cursive;
+}
+.d-flex{
+	height: 100vh;
 }
