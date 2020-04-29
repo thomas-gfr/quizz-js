@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAYE,AAAA,MAAM,CAAA;EAVJ,SAAS,EAAE,0CAAgP;CAY5P;;AAVC,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK;EAQrC,AAAA,MAAM,CAAA;IAPF,SAAS,EAQW,IAAI;GAC3B;;;AAPC,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,MAAM;EAKtC,AAAA,MAAM,CAAA;IAJF,SAAS,EAKiB,IAAI;GACjC",
+    "sources": [
+        "font-size.scss"
+    ],
+    "names": [],
+    "file": "font-size.css"
+}

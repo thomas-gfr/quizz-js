@@ -1,0 +1,16 @@
+.title {
+  font-size: calc(20px + 60 * ( (100vw - 420px) / 780));
+}
+
+@media screen and (max-width: 420px) {
+  .title {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .title {
+    font-size: 80px;
+  }
+}
+/*# sourceMappingURL=font-size.css.map */
