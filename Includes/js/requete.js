@@ -54,14 +54,14 @@ $(document).ready(function(){
             }
             else if(score < 8)
             {
-                $('.img_1').attr('https://giphy.com/gifs/unimpressed-blinking-rugrats-t0AIG7ldNyMBG');
-                $('.img_2').attr('https://giphy.com/gifs/davidbowie-expressionless-Nht4X3SnAz32M');
+                $('.img_1').attr('src','https://media.giphy.com/media/l41m5sBnMGzBDXBny/giphy.gif');
+                $('.img_2').attr('src','https://media.giphy.com/media/t0AIG7ldNyMBG/giphy.gif');
                 $('.score').css('color','#DF7401');
             }
             else
             {
-                $('.img_1').attr('https://media.giphy.com/media/3o72FcJmLzIdYJdmDe/giphy.gif');
-                $('.img_2').attr('https://media.giphy.com/media/12xWfDQcGkbU1W/giphy.gif');  
+                $('.img_1').attr('src','https://media.giphy.com/media/3o72FcJmLzIdYJdmDe/giphy.gif');
+                $('.img_2').attr('src','https://media.giphy.com/media/12xWfDQcGkbU1W/giphy.gif');  
                 $('.score').css('color','#088A4B');                
             }
 
