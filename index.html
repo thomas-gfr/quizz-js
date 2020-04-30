@@ -14,7 +14,9 @@
         QUIZZLL 
     </title>
   </head>
+  
   <body class="p-0 m-0">
+    
     <div class="container d-flex flex-column justify-content-between">
         <div class="row">
             <h1 class="h1 mx-auto title ">
@@ -29,126 +31,48 @@
         </div>
         
         <div class="container qcm-container"> 
-          <div class="row">
-
-            <div class="qcm-box">
-              <h2 class="h1 mx-auto title col-xl-12 text-center">
-                 1. Lorem ipsum deoeiheo suajsnj?
-              </h2>
-              <form class="row col-xl-12">
-                <div class="inputGroup col-xl-12">
-                  <input id="radio1" name="radio" type="radio"/>
-                  <label for="radio1"> Lorem ipsum</label>
-                </div>
-                <div class="inputGroup col-xl-12">
-                  <input id="radio2" name="radio" type="radio"/>
-                  <label for="radio2">Lorem ipsum zzzz</label>
-                </div>
-                <div class="inputGroup col-xl-12">
-                    <input id="radio3" name="radio" type="radio"/>
-                    <label for="radio3">Lorem ipsum aaaa</label>
-                  </div>
-              </form>
-            </div>
-
-            <div class="qcm-box">
-              <h2 class="h1 mx-auto title col-xl-12 text-center">
-                2. Lorem ipsum deoeiheo suajsnj?
-              </h2>
-              <form class="row col-xl-12">
-                <div class="inputGroup col-xl-12">
-                  <input id="radio1" name="radio" type="radio"/>
-                  <label for="radio1"> Lorem ipsum</label>
-                </div>
-                <div class="inputGroup col-xl-12">
-                  <input id="radio2" name="radio" type="radio"/>
-                  <label for="radio2">Lorem ipsum zzzz</label>
-                </div>
-                <div class="inputGroup col-xl-12">
-                    <input id="radio3" name="radio" type="radio"/>
-                    <label for="radio3">Lorem ipsum aaaa</label>
-                  </div>
-              </form>
-            </div>
-
-            <div class="qcm-box">
-              <h2 class="h1 mx-auto title col-xl-12 text-center">
-                3. Lorem ipsum deoeiheo suajsnj?
-              </h2>
-              <form class="row col-xl-12">
-                <div class="inputGroup col-xl-12">
-                  <input id="radio1" name="radio" type="radio"/>
-                  <label for="radio1"> Lorem ipsum</label>
-                </div>
-                <div class="inputGroup col-xl-12">
-                  <input id="radio2" name="radio" type="radio"/>
-                  <label for="radio2">Lorem ipsum zzzz</label>
-                </div>
-                <div class="inputGroup col-xl-12">
-                    <input id="radio3" name="radio" type="radio"/>
-                    <label for="radio3">Lorem ipsum aaaa</label>
-                  </div>
-              </form>
-            </div>
+          
+          <div class="loader">
+            <span></span>
+            <span></span>
+            <span></span>
           </div>
+          
+          <div class="row qcm-content">
+          </div>
+
         <button class="btn btn-warning btn-prev">PRECEDENT</button>
         <button class="btn btn-info btn-next">SUIVANT</button>
         <button class="btn btn-success btn-valid">VALIDER</button>
         </div>
-        <div class="row d-none">
-          <img src="https://media.giphy.com/media/MOWPkhRAUbR7i/giphy.gif" alt="bravo" class=" col-xl-4">
-          <h1 class="h1 title col-xl-4">
-            VOTRE SCORE : 8/10
-          </h1>
-          <img src="https://media.giphy.com/media/12xWfDQcGkbU1W/giphy.gif" alt="bravo" class="col-xl-4" >
-        </div>
-        <div class="row d-none">
-          <img src="https://media.giphy.com/media/tFXCQpZf3Q95S/giphy.gif" alt="bravo" class=" col-xl-4">
-          <h1 class="h1 title col-xl-4">
-            VOTRE SCORE : 10/10
-          </h1>
-          <img src="https://media.giphy.com/media/fIXtW1VlTyPba/giphy.gif" alt="bravo" class="col-xl-4">
-        </div>
-        <div class="row d-none">
-          <table class="table ">
-            <thead class="thead-dark">
-              <tr>
-                <th scope="col">Position</th>
-                <th scope="col">Surnom</th>
-                <th scope="col">Note</th>
-                <th scope="col">@</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr >
-                <th scope="row">1</th>
-                <td>Mark</td>
-                <td>10/10</td>
-                <td>@mdo</td>
-              </tr>
-              <tr>
-                <th scope="row">2</th>
-                <td>Jacob</td>
-                <td>09/10</td>
-                <td>@fat</td>
-              </tr>
-              <tr class="bg-light">
-                <th scope="row">3</th>
-                <td>Larry</td>
-                <td>08/10</td>
-                <td>@twitter</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
+        
+        <div class="results-container">
+
+          <div class="row">
+            <img src="" class="col-xl-4 img_1">
+            <h2 class="h2 title col-xl-4" style="text-align: center;">
+              VOTRE SCORE : <span class="score"></span><br>
+              TEMPS : <span class="timing-span"></span>
+            </h2>
+            <img src="" class="col-xl-4 img_2" >
+          </div>
+      </div>
+
+
         <footer>
         </footer>
     </div>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <script src="Includes/js/slider.js"></script>
+    <script src="Includes/js/timer.js"></script>
     <script src="Includes/js/requete.js"></script>
+    <script>
+
+
+    </script>
   </body>
 </html>
 

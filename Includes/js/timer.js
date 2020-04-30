@@ -1,4 +1,4 @@
-$(document).ready(function(){ 
+
   var secondes = 0; 
   var minutes = 0; 
   var click = false; 
@@ -42,4 +42,4 @@ $(document).ready(function(){
       clearTimeout(timerID); 
     } 
   } 
-}); 
+
